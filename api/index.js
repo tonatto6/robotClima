@@ -4,7 +4,8 @@ const logInfo = require('../utils/logInfo')
 const logError = require('../utils/logError')
 const { error } = require('console')
 
-cron.schedule('*/10 * * * * *', async()=>{
+// CRON CONFIGURADO PARA EJECUTARSE CADA 5 MINUTOS
+cron.schedule('* */5 * * * *', async()=>{
     try {
         console.log('Running Cron')
 
