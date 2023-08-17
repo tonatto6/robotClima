@@ -1,2 +1,3 @@
 # robotClima
-Microservicio que permite cada determinado tiempo actualizar el estado del clima
+
+Microservice that allows you to update the weather status from time to time
